@@ -2,7 +2,7 @@ name: Neofetch
 on:
   workflow_dispatch:
 jobs:
-  build:
+  neofetch:
     runs-on: self-hosted
     steps:
       - name: Neofetch
